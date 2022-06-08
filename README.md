@@ -16,7 +16,7 @@ maven自定义插件，约束自己项目中禁止引入某些jar包，比如禁
 在自己的项目中配置插件
 ```
             <plugin>
-                <groupId>com.hy</groupId>
+                <groupId>org.example</groupId>
                 <artifactId>check-restrain-maven-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <configuration>
